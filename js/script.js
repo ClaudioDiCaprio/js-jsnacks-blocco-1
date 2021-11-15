@@ -24,46 +24,46 @@
 
 //WHILE
 
-let ask = 0;
-let add = 0;
+// let ask = 0;
+// let add = 0;
 
 
-let i = 0;
+// let i = 0;
 
-while (i < 5){
-    ask = prompt("Insert a number");
-    if(isNaN(ask)){
-        ask = prompt("Fatal error: you must insert a number");
-    }
-    add += parseInt(ask);
+// while (i < 5){
+//     ask = prompt("Insert a number");
+//     if(isNaN(ask)){
+//         ask = prompt("Fatal error: you must insert a number");
+//     }
+//     add += parseInt(ask);
     
-    i++;
+//     i++;
 
-    console.log(add);
-};
+//     console.log(add);
+// };
 
-alert('add is : ' + add);
+// alert('add is : ' + add);
 
 
 // JSnack 2
 // Dare la possibilità di inserire due parole.
-// Verificare tramite una funzione che le due parole abbiano la stessa lunghezza.
+// Verificare tramite una funzione che le due parole abbiano la stessa lunghezza.Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
 
 
 
+let word = prompt('insert a word');
+let spell = prompt ('insert a word');
+
+if (word.length < spell.length) {
+        console.log(word);
+    } else if (word.length > spell.length) {
+        console.log(spell);
+    } else {
+        console.log(word + " " + spell);
+    };
 
 
 
-
-
-
-
-
-
-
-
-
-
-// Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
+// 
 // JSnack 3
 // Stampa le potenze di 2 fino a 1000.
