@@ -75,10 +75,8 @@ let exponent = 2;
 while(base < 1000){
     base = base * exponent;
     if (base > 1000){
-        base = base * exponent - 1048;
+        base = base * exponent - 1048;//ovviamente  é per ridere 
     }
     
 console.log(base);
 } 
-
-
