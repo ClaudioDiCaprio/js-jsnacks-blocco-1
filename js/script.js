@@ -54,9 +54,9 @@
 // let word = prompt('insert a word');
 // let spell = prompt ('insert a word');
 
-// if (word.length < spell.length) {
+// if (word.length > spell.length) {
 //         console.log(word);
-//     } else if (word.length > spell.length) {
+//     } else if (word.length < spell.length) {
 //         console.log(spell);
 //     } else {
 //         console.log(word + " " + spell);
