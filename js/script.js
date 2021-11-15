@@ -51,19 +51,34 @@
 
 
 
-let word = prompt('insert a word');
-let spell = prompt ('insert a word');
+// let word = prompt('insert a word');
+// let spell = prompt ('insert a word');
 
-if (word.length < spell.length) {
-        console.log(word);
-    } else if (word.length > spell.length) {
-        console.log(spell);
-    } else {
-        console.log(word + " " + spell);
-    };
+// if (word.length < spell.length) {
+//         console.log(word);
+//     } else if (word.length > spell.length) {
+//         console.log(spell);
+//     } else {
+//         console.log(word + " " + spell);
+//     };
 
 
 
 // 
 // JSnack 3
 // Stampa le potenze di 2 fino a 1000.
+
+let base = 1;
+let exponent = 2;
+
+
+while(base < 1000){
+    base = base * exponent;
+    if (base > 1000){
+        base = base * exponent - 1048;
+    }
+    
+console.log(base);
+} 
+
+
